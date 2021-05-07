@@ -1,0 +1,28 @@
+{
+    "signal": {
+        "class": "btd_all",
+        "desc": "LC - LTC USDT DEV 6 Tier 1 Alerts",
+        "pair": {
+            "base": "LTC",
+            "quote": "USDT"
+        },
+        "deviation": "6",
+        "tier": "1",
+        "exchange": "Binance",
+        "ticks": "1614075361159"
+    },
+    "order": {
+        "exchange": "binance.us",
+        "symbol": "LTCUSDT",
+        "side": "BUY",
+        "type": "MARKET",
+        "quantity": "10",
+        "timestamp": "1614075362211"
+    },
+    "response": {
+        "code": -2010,
+        "msg": "Account has insufficient balance for requested action."
+    },
+    "sell_order": {},
+    "sell_response": {}
+}

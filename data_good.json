@@ -1,0 +1,73 @@
+{
+    "signal": {
+        "class": "btd_all",
+        "desc": "LC - ADA USDT DEV 3 Tier 1 Alerts",
+        "pair": {
+            "base": "ADA",
+            "quote": "USDT"
+        },
+        "deviation": "3",
+        "tier": "1",
+        "exchange": "Binance",
+        "ticks": "1618874941116"
+    },
+    "order": {
+        "exchange": "binance.us",
+        "symbol": "ADAUSDT",
+        "side": "BUY",
+        "type": "MARKET",
+        "quantity": "10",
+        "timestamp": "1618874941525"
+    },
+    "response": {
+        "symbol": "ADAUSDT",
+        "orderId": 79245123,
+        "orderListId": -1,
+        "clientOrderId": "O6c8Oe3Db5fjhYUMp1nGeS",
+        "transactTime": 1618874941612,
+        "price": "0.00000000",
+        "origQty": "8.30000000",
+        "executedQty": "8.30000000",
+        "cummulativeQuoteQty": "9.89567500",
+        "status": "FILLED",
+        "timeInForce": "GTC",
+        "type": "MARKET",
+        "side": "BUY",
+        "fills": [
+            {
+                "price": "1.19225000",
+                "qty": "8.30000000",
+                "commission": "0.00001483",
+                "commissionAsset": "BNB",
+                "tradeId": 1400670
+            }
+        ],
+        "_price": "1.19225000",
+        "_quantity": "8.30000000"
+    },
+    "sell_order": {
+        "exchange": "binance.us",
+        "symbol": "ADAUSDT",
+        "side": "SELL",
+        "type": "LIMIT",
+        "quantity": "8.30000000",
+        "price": "1.23397875",
+        "timestamp": "1618874941525"
+    },
+    "sell_response": {
+        "symbol": "ADAUSDT",
+        "orderId": 79245124,
+        "orderListId": -1,
+        "clientOrderId": "upIHw92GWmcuEDrLSmtKOI",
+        "transactTime": 1618874941896,
+        "price": "1.23398000",
+        "origQty": "8.30000000",
+        "executedQty": "0.00000000",
+        "cummulativeQuoteQty": "0.00000000",
+        "status": "NEW",
+        "timeInForce": "GTC",
+        "type": "LIMIT",
+        "side": "SELL",
+        "fills": []
+    }
+}
